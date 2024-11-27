@@ -7,10 +7,11 @@ Commonly used package links to add to Unity's Package Manager.
 ## Table of Contents
 
 1. [Tools](#tools)
-   - [Unity GLTF](#unity-gltf)
+   - [Unity GLTF](#1-unity-gltf)
+   - [Newtonsoft Json](#2-newtonsoft-json)
+   - [Json.NET Converters of Unity types](#3-jsonnet-converters-of-unity-types)
 2. [UI](#ui)
-   - [Unity-UI-Rounded-Corners](#unity-ui-rounded-corners)
-
+   - [Unity-UI-Rounded-Corners](#1-unity-ui-rounded-corners)
 ---
 
 ## Tools
@@ -24,6 +25,30 @@ Provides support for loading GLTF models within Unity, commonly used for handlin
 **Package URL:**
 ```
 https://github.com/KhronosGroup/UnityGLTF.git
+```
+
+### 2. Newtonsoft Json
+
+[![Reference](https://img.shields.io/badge/Reference-Unity-black)](https://docs.unity3d.com/Packages/com.unity.nuget.newtonsoft-json@3.2/manual/index.html)
+
+
+Provides support for flexible JSON serializer for converting between .NET objects and JSON.
+
+**Package URL:**
+```
+com.unity.nuget.newtonsoft-json
+```
+
+### 3. Json.NET Converters of Unity types
+
+[![Reference](https://img.shields.io/badge/Reference-GitHub-blue)](https://github.com/applejag/Newtonsoft.Json-for-Unity.Converters.git)
+
+
+Provides converters of common Unity types for Newtonsoft.Json.
+
+**Package URL:**
+```
+https://github.com/jilleJr/Newtonsoft.Json-for-Unity.Converters.git#1.0.0
 ```
 
 ---
