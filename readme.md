@@ -10,6 +10,8 @@ Commonly used package links to add to Unity's Package Manager.
    - [Unity GLTF](#1-unity-gltf)
    - [Newtonsoft Json](#2-newtonsoft-json)
    - [Json.NET Converters of Unity types](#3-jsonnet-converters-of-unity-types)
+   - [Serialized Dictionary](#4-serialized-dictionary)
+   
 2. [UI](#ui)
    - [Unity-UI-Rounded-Corners](#1-unity-ui-rounded-corners)
 ---
@@ -49,6 +51,19 @@ Provides converters of common Unity types for Newtonsoft.Json.
 **Package URL:**
 ```
 https://github.com/jilleJr/Newtonsoft.Json-for-Unity.Converters.git#1.0.0
+```
+
+### 4. Serialized Dictionary
+
+[![Reference](https://img.shields.io/badge/Reference-GitHub-blue)](https://github.com/ayellowpaper/SerializedDictionary)
+
+
+Provides Utility to view dictionaries in the Unity Inspector.
+Use the class SerializedDictionary<,> in the Namespace AYellowpaper.SerializedCollections instead of the Dictionary<,> class to serialize your data.
+
+**Package URL:**
+```
+https://github.com/ayellowpaper/SerializedDictionary.git
 ```
 
 ---
