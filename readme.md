@@ -7,13 +7,16 @@ Commonly used package links to add to Unity's Package Manager.
 ## Table of Contents
 
 1. [Tools](#tools)
+
    - [Unity GLTF](#1-unity-gltf)
    - [Newtonsoft Json](#2-newtonsoft-json)
    - [Json.NET Converters of Unity types](#3-jsonnet-converters-of-unity-types)
    - [Serialized Dictionary](#4-serialized-dictionary)
-   
+   - [XRIT_Examples](#5-xrit-examples)
 2. [UI](#ui)
+
    - [Unity-UI-Rounded-Corners](#1-unity-ui-rounded-corners)
+
 ---
 
 ## Tools
@@ -25,6 +28,7 @@ Commonly used package links to add to Unity's Package Manager.
 Provides support for loading GLTF models within Unity, commonly used for handling 3D assets in .gltf or .glb format.
 
 **Package URL:**
+
 ```
 https://github.com/KhronosGroup/UnityGLTF.git
 ```
@@ -33,10 +37,10 @@ https://github.com/KhronosGroup/UnityGLTF.git
 
 [![Reference](https://img.shields.io/badge/Reference-Unity-black)](https://docs.unity3d.com/Packages/com.unity.nuget.newtonsoft-json@3.2/manual/index.html)
 
-
 Provides support for flexible JSON serializer for converting between .NET objects and JSON.
 
 **Package URL:**
+
 ```
 com.unity.nuget.newtonsoft-json
 ```
@@ -45,10 +49,10 @@ com.unity.nuget.newtonsoft-json
 
 [![Reference](https://img.shields.io/badge/Reference-GitHub-blue)](https://github.com/applejag/Newtonsoft.Json-for-Unity.Converters.git)
 
-
 Provides converters of common Unity types for Newtonsoft.Json.
 
 **Package URL:**
+
 ```
 https://github.com/jilleJr/Newtonsoft.Json-for-Unity.Converters.git#1.0.0
 ```
@@ -57,13 +61,24 @@ https://github.com/jilleJr/Newtonsoft.Json-for-Unity.Converters.git#1.0.0
 
 [![Reference](https://img.shields.io/badge/Reference-GitHub-blue)](https://github.com/ayellowpaper/SerializedDictionary)
 
-
 Provides Utility to view dictionaries in the Unity Inspector.
 Use the class SerializedDictionary<,> in the Namespace AYellowpaper.SerializedCollections instead of the Dictionary<,> class to serialize your data.
 
 **Package URL:**
+
 ```
 https://github.com/ayellowpaper/SerializedDictionary.git
+```
+### 5. XRIT_Examples
+
+[![Reference](https://img.shields.io/badge/Reference-GitHub-blue)](https://github.com/Innovate-Labs/xrit_examples)
+
+Provides examples of XRIT Example project backed by Unity Technologies.
+
+**Package URL:**
+
+```
+https://github.com/Innovate-Labs/xrit_examples.git
 ```
 
 ---
@@ -77,6 +92,7 @@ Adds rounded corners to the Image component of Unity's UI, allowing for more fle
 [![Reference](https://img.shields.io/badge/Reference-GitHub-blue)](https://github.com/kirevdokimov/Unity-UI-Rounded-Corners)
 
 **Package URL:**
+
 ```
 https://github.com/kirevdokimov/Unity-UI-Rounded-Corners.git
 ```
